@@ -5,7 +5,7 @@ import org.junit.Test;
 public class OperatorsTest {
 
 	@Test
-	void test() {
+	public void test() {
 		
 		int output = Operators.getInstance().Add(3, 5);
 		
