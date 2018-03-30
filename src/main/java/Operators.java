@@ -10,7 +10,7 @@ public final class Operators {
     }
 	
 	public int Add(int x, int y) {
-		return x + y;
+		return x - y;
 	}
 	
 	public float Add(float x, float y) {
