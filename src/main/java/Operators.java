@@ -45,7 +45,7 @@ public final class Operators {
 		return x - y;
 	}
 	
-	public int Multilple(int x, int y) {
+	public int Multiply(int x, int y) {
 		return x * y;
 	}
 	
@@ -91,27 +91,27 @@ public final class Operators {
 	}
 	
 	public int Increment(int x) {
-		return x++;
+		return ++x;
 	}
 	
 	public float Increment(float x) {
-		return x++;
+		return ++x;
 	}
 	
 	public double Increment(double x) {
-		return x++;
+		return ++x;
 	}
 	
 	public int Decrement(int x) {
-		return x--;
+		return --x;
 	}
 	
 	public float Decrement(float x) {
-		return x--;
+		return --x;
 	}
 	
 	public double Decrement(double x) {
-		return x--;
+		return --x;
 	}
 	
 	public boolean Equal(int x, int y) {
@@ -119,6 +119,10 @@ public final class Operators {
 	}
 	
 	public boolean Equal(float x, float y) {
+		return x == y;
+	}
+	
+	public boolean Equal(double x, double y) {
 		return x == y;
 	}
 	
@@ -131,6 +135,10 @@ public final class Operators {
 	}
 	
 	public boolean NotEqual(float x, float y) {
+		return x != y;
+	}
+	
+	public boolean NotEqual(double x, double y) {
 		return x != y;
 	}
 	
